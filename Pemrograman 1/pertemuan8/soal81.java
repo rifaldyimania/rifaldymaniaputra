@@ -9,13 +9,13 @@ public class soal81 {
         do {
             System.out.print("Masukkan nilai mahasiswa: ");
             int nilai = input.nextInt();
-            input.nextLine(); // membersihkan newline
+            input.nextLine(); 
 
             System.out.println("Nilai yang diinput: " + nilai);
 
             System.out.print("Ingin input lagi? (y/t): ");
             ulang = input.next().charAt(0);
-            input.nextLine(); // membersihkan buffer
+            input.nextLine(); 
 
         } while (ulang == 'y' || ulang == 'Y');
 
